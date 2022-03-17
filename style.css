@@ -10,3 +10,6 @@ h2{
 	height: 150px;
 	border-color: aqua;
 }
+ul{
+	list-style-type: none;
+}
