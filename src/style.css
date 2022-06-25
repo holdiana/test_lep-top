@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url("../images/pogoda.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+#celsius-link,
+#farenheit-link {
+  text-decoration: none;
+  font-size: 50px;
+  vertical-align: top;
+  color: #091a2a;
+}
+.units {
+  font-size: 50px;
+  vertical-align: top;
+}
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+h2 {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-left: 30px;
+}
+#current-time {
+  text-align: center;
+  line-height: 120%;
+  font-weight: 600;
+  font-size: 20px;
+}
+.logo__image {
+  width: 50px;
+}
+
+header {
+  padding: 50px 0 50px 0;
+}
+header .container {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+.main .container,
+.cards .container {
+  max-width: 800px;
+}
+.logo__name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #091a2a;
+}
+.main__place {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.place__img {
+  display: flex;
+
+  justify-content: end;
+  margin-left: 50px;
+  max-width: 300px;
+}
+.place__pin {
+  width: 25%;
+  object-fit: contain;
+}
+.btn-success {
+  margin: 0 0 0 30px;
+  width: 100px;
+  height: 38px;
+}
+
+.place__descr {
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #091a2a;
+}
+
+.main__items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__item-temperature {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #232425;
+}
+.main__img {
+  width: 50%;
+  margin-left: 50px;
+}
+li {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.current__wind {
+  text-transform: none;
+}
+
+.card {
+  max-width: 150px;
+}
+.card-title,
+.card-text {
+  text-align: center;
+}
+.card-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-body {
+  height: 100%;
+}
+
+.card__img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+.footer {
+  padding: 10px 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+  font-weight: 600;
+}
